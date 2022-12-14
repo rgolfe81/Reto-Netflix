@@ -1,0 +1,35 @@
+body {
+    background: black;
+}
+.contenedorHeader{
+    display: grid;
+    grid-template-columns: 2fr repeat(5, 1fr) 5fr repeat(4, 1fr);
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+#tamañoImagenLogo{
+    width: 12em;
+    height: 5em;
+}
+#tamañoImagenHeader{
+    width: 3em;
+    height: 3em;
+}
+h1{
+    color:white;
+}
+#tamañoImagenSection{
+    width: 18em;
+    height: 12em;
+}
+.contenedorDocumentales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedorPeliculas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
